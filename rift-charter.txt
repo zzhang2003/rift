@@ -1,0 +1,33 @@
+Data Centers have been steadily growing to commonly host tens of thousands
+of end points, or more, in a single network.  Because of their topologies
+(traditional and emerging), traffic patterns, need for fast restoration,
+and for low human intervention, data center networks have a unique set of
+requirements that is resulting in the design of routing solutions specific
+to them.  Clos and Fat-Tree topologies have gained popularity in data center
+networks as a result of a trend towards centralized data center network
+architectures that may deliver computation and storage services.
+
+The Routing in Fat Trees (RIFT) protocol addresses the demands of routing in
+Clos and Fat-Tree networks via a mixture of both link-state and distance-vector
+techniques colloquially described as 'link-state towards the spine and
+distance vector towards the leaves'.  RIFT uses this hybrid approach to
+focus on networks with regular topologies with a high degree of connectivity, a
+defined directionality, and large scale.
+
+-- The above is unchanged from the existing charter. The following is new --
+
+The RIFT WG has finished the base protocol specification
+(draft-ietf-rift-rift-20) and will continue to work on standards track
+specifications on the following:
+
+ - Key-Value Store
+ - Policy Guided Prefix
+ - Segment Routing
+ - Using RIFT Zero Touch Provisioning for automatic provisioning of other
+   mechanisms/protocols (e.g., EVPN overlay, ISIS flood reflection topologies)
+ - Multicast
+ - Leaf ring topologies
+ - Dragonfly topologies
+
+The RIFT WG will also explore the use and extensions of the RIFT protocol for
+the newer AI/ML Data Center architectures.
