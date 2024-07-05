@@ -20,7 +20,7 @@ The RIFT WG has finished the base protocol specification
 (draft-ietf-rift-rift-20) and will continue to work on standards track
 specifications on the following:
 
- - Key-Value Store
+ - Key-Value Data Store
  - Policy Guided Prefix
  - Segment Routing
  - Using RIFT Zero Touch Provisioning for automatic provisioning of other
@@ -31,3 +31,13 @@ specifications on the following:
 
 The RIFT WG will also explore the use and extensions of the RIFT protocol for
 the newer AI/ML Data Center architectures.
+
+Planned Milestones:
+
+- Dec 2024: Submit RIFT Key-Value Data Store specification to IESG for publication
+- Dec 2024: Submit RIFT Auto-EVPN specification to IESG for publication
+- Apr 2025: Submit RIFT for ISIS flood reflection specification to IESG for publication
+- Aug 2025: Submit RIFT Segment Routing MPLS specification to IESG for publication
+- Dec 2025: Submit RIFT Multicast specification to IESG for publication
+
+Milestones for other proposed items are TBD.
